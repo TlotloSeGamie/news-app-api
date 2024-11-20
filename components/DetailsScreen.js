@@ -17,12 +17,34 @@ const DetailsScreen = ({ route }) => {
 };
 
 const styles = StyleSheet.create({
-  container: { flex: 1, padding: 20, backgroundColor: "#fff" },
-  title: { fontSize: 24, fontWeight: "bold", marginBottom: 10 },
-  source: { fontSize: 16, color: "gray", marginBottom: 20 },
-  content: { fontSize: 16, lineHeight: 24 },
-  linkButton: { marginTop: 20, padding: 10, backgroundColor: "#007bff", alignItems: "center" },
-  linkText: { color: "#fff", fontWeight: "bold" },
+  container: { 
+    flex: 1, 
+    padding: 20, 
+    backgroundColor: "#fff" 
+},
+  title: { 
+    fontSize: 24, 
+    fontWeight: "bold", 
+    marginBottom: 10 
+},
+  source: { 
+    fontSize: 16, color: "gray", 
+    marginBottom: 20 
+},
+  content: { 
+    fontSize: 16, 
+    lineHeight: 24 
+},
+  linkButton: { 
+    marginTop: 20, 
+    padding: 10, 
+    backgroundColor: "#007bff", 
+    alignItems: "center" 
+},
+  linkText: { 
+    color: "#fff", 
+    fontWeight: "bold" 
+},
 });
 
 export default DetailsScreen;
